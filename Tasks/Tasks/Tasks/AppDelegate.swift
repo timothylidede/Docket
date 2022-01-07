@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Docket
+//  Tasks
 //
 //  Created by George Okello on 08/01/2022.
 //  Copyright © 2022 Tim. All rights reserved.

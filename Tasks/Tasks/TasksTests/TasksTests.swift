@@ -1,15 +1,15 @@
 //
-//  DocketTests.swift
-//  DocketTests
+//  TasksTests.swift
+//  TasksTests
 //
 //  Created by George Okello on 08/01/2022.
 //  Copyright © 2022 Tim. All rights reserved.
 //
 
 import XCTest
-@testable import Docket
+@testable import Tasks
 
-class DocketTests: XCTestCase {
+class TasksTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
