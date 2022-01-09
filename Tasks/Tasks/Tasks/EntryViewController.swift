@@ -11,4 +11,10 @@ class EntryViewController: UIViewController, UITextFieldDelegate {
         field.delegate
     }
 
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        saveTask()
+        
+        return true
+    }
 }
