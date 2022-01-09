@@ -17,4 +17,8 @@ class EntryViewController: UIViewController, UITextFieldDelegate {
         
         return true
     }
+    
+    @IBAction func saveTask(){
+        
+    }
 }
