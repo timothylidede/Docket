@@ -56,7 +56,7 @@
         <!--Entry View Controller-->
         <scene sceneID="hay-KM-84Z">
             <objects>
-                <viewController id="fBD-CP-met" customClass="EntryViewController" customModule="Tasks" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="entry" id="fBD-CP-met" customClass="EntryViewController" customModule="Tasks" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZqJ-XI-o3Z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
