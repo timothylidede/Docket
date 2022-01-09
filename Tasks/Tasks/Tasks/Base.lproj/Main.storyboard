@@ -42,7 +42,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="OhN-kD-59J"/>
+                    <navigationItem key="navigationItem" id="OhN-kD-59J">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="4aA-NF-KuP"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="ifz-al-Lhh" id="GUR-5z-c8O"/>
                     </connections>
