@@ -15,6 +15,7 @@
 		5E0E07902788F3CD0076FE49 /* TasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0E078F2788F3CD0076FE49 /* TasksTests.swift */; };
 		5E0E079B2788F3CD0076FE49 /* TasksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0E079A2788F3CD0076FE49 /* TasksUITests.swift */; };
 		5EB5DEEF278A62C200F6DE64 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5DEEE278A62C200F6DE64 /* EntryViewController.swift */; };
+		5EB5DEF1278A634400F6DE64 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5DEF0278A634400F6DE64 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5E0E079A2788F3CD0076FE49 /* TasksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksUITests.swift; sourceTree = "<group>"; };
 		5E0E079C2788F3CD0076FE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EB5DEEE278A62C200F6DE64 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		5EB5DEF0278A634400F6DE64 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				5E0E07832788F3CD0076FE49 /* LaunchScreen.storyboard */,
 				5E0E07862788F3CD0076FE49 /* Info.plist */,
 				5EB5DEEE278A62C200F6DE64 /* EntryViewController.swift */,
+				5EB5DEF0278A634400F6DE64 /* TaskViewController.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E0E077D2788F3CC0076FE49 /* ViewController.swift in Sources */,
+				5EB5DEF1278A634400F6DE64 /* TaskViewController.swift in Sources */,
 				5E0E077B2788F3CC0076FE49 /* AppDelegate.swift in Sources */,
 				5EB5DEEF278A62C200F6DE64 /* EntryViewController.swift in Sources */,
 			);
