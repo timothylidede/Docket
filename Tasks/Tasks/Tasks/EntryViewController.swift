@@ -8,7 +8,7 @@ class EntryViewController: UIViewController, UITextFieldDelegate {
         
         super.viewDidLoad()
 
-        field.delegate
+        field.delegate = self
     }
 
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
