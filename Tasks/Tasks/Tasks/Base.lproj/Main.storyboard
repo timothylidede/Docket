@@ -65,15 +65,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IKT-8t-Szd">
-                                <rect key="frame" x="139" y="75" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IKT-8t-Szd">
+                                <rect key="frame" x="20" y="40" width="335" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IKT-8t-Szd" firstAttribute="leading" secondItem="g7J-po-iX8" secondAttribute="leading" constant="20" id="iNe-xh-c5i"/>
+                            <constraint firstItem="IKT-8t-Szd" firstAttribute="top" secondItem="g7J-po-iX8" secondAttribute="top" constant="20" id="iZD-jw-CRI"/>
+                            <constraint firstItem="g7J-po-iX8" firstAttribute="trailing" secondItem="IKT-8t-Szd" secondAttribute="trailing" constant="20" id="rCb-dq-HvG"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="g7J-po-iX8"/>
                     </view>
                 </viewController>
