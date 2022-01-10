@@ -29,5 +29,7 @@ class EntryViewController: UIViewController, UITextFieldDelegate {
         
         let newCount = count + 1
         
+        UserDefaults().set(newCount, forKey: "count")
+        
     }
 }
