@@ -21,6 +21,10 @@ class EntryViewController: UIViewController, UITextFieldDelegate {
     }
     
     @objc func saveTask(){
+        guard let text = field.text !text.isEmpty else{
+            return
+        }
+        
         
     }
 }
