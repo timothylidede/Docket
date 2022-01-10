@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     @IBAction func didTapAdd(){
         
         let vc = storyboard?.instantiateViewController(withIdentifier: "entry") as! EntryViewController
+        vc.title = "New Task"
         
     }
 
