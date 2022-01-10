@@ -25,7 +25,9 @@ class EntryViewController: UIViewController, UITextFieldDelegate {
             return
         }
         
-        var count = UserDefaults().value(forKey: "count") as? Int
+        guard let count = UserDefaults().value(forKey: "count") as? Int else{
+            
+        }
         
         let newCount = count + 1
         
