@@ -22,6 +22,12 @@ class ViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         
+        //Setup
+        
+        if !UserDefaults().bool(forKey: "setup"){
+            
+        }
+        
         //get all currently saved tasks
     }
     
