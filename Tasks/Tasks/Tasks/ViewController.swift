@@ -19,6 +19,9 @@ class ViewController: UIViewController {
         
         self.title = "Tasks"
         
+        tableView.delegate = self
+        tableView.dataSource = self
+        
         //get all currently saved tasks
     }
     
