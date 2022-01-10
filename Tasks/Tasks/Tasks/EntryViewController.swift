@@ -20,7 +20,7 @@ class EntryViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
-    func saveTask(){
+    @objc func saveTask(){
         
     }
 }
