@@ -66,7 +66,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IKT-8t-Szd">
-                                <rect key="frame" x="20" y="40" width="335" height="30"/>
+                                <rect key="frame" x="20" y="40" width="335" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="dmN-2P-Las"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
