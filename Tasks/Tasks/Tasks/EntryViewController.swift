@@ -26,12 +26,13 @@ class EntryViewController: UIViewController, UITextFieldDelegate {
         }
         
         guard let count = UserDefaults().value(forKey: "count") as? Int else{
-            
+            return
         }
         
         let newCount = count + 1
         
         UserDefaults().set(newCount, forKey: "count")
+        UserDefaults().set(text, forKey: "task_\(newCount)")
         
     }
 }
