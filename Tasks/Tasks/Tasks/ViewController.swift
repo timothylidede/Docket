@@ -34,7 +34,10 @@ class ViewController: UIViewController {
     }
     
     func updateTasks(){
-        
+       
+        guard let count = UserDefaults().value(forKey: "count") as? Int else{
+            return
+        }
         
     }
     
