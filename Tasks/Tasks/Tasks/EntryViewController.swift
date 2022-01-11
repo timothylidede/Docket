@@ -38,5 +38,7 @@ class EntryViewController: UIViewController, UITextFieldDelegate {
         
         update?()
         
+        navigationController?.popViewController(animated: true)
+        
     }
 }
