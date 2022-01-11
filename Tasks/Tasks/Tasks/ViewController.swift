@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         vc.title = "New Task"
         
         vc.update = {
-            updateTasks()
+            self.updateTasks()
         }
         navigationController?.pushViewController(vc, animated: true)
     }
