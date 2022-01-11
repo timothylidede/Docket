@@ -39,6 +39,10 @@ class ViewController: UIViewController {
             return
         }
         
+        for x in 0...count{
+            
+        }
+        
     }
     
     @IBAction func didTapAdd(){
