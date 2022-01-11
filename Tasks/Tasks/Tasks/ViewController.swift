@@ -39,8 +39,11 @@ class ViewController: UIViewController {
             return
         }
         
-        for x in 0...count{
+        for x in 0..<count{
             
+            if let task = UserDefaults().value(forKey: "task_\(x+1)") as? String{
+                tasks.append(task)
+            }
         }
         
     }
