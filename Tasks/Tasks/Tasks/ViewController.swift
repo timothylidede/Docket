@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         }
         
         //get all currently saved tasks
+        updateTasks()
     }
     
     func updateTasks{
