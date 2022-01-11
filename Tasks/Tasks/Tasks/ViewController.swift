@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         updateTasks()
     }
     
-    func updateTasks{
+    func updateTasks(){
         
         
     }
@@ -44,8 +44,7 @@ class ViewController: UIViewController {
         vc.title = "New Task"
         
         vc.update = {
-            
-            
+            updateTasks()
         }
         navigationController?.pushViewController(vc, animated: true)
     }
