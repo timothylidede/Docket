@@ -12,5 +12,9 @@ class TaskViewController: UIViewController {
         // Do any additional setup after loading the view.
         label.text = task
     }
+    
+    @objc func deleteTask(){
+        
+    }
 
 }
