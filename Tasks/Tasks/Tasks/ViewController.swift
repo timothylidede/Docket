@@ -48,6 +48,8 @@ class ViewController: UIViewController {
             }
         }
         
+        tableView.reloadData()
+        
     }
     
     @IBAction func didTapAdd(){
