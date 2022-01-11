@@ -11,6 +11,8 @@ class TaskViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         label.text = task
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Delete", style: .done, target: self, action: #selector(deleteTask))
     }
     
     @objc func deleteTask(){
