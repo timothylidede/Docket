@@ -4,6 +4,8 @@ class EntryViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet var field :UITextField!
     
+    var update: (Void -> Void)?
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
