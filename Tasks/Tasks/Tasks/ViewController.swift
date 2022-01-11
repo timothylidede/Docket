@@ -34,6 +34,8 @@ class ViewController: UIViewController {
     }
     
     func updateTasks(){
+        
+        tasks.removeAll()
        
         guard let count = UserDefaults().value(forKey: "count") as? Int else{
             return
