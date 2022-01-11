@@ -44,7 +44,9 @@ class ViewController: UIViewController {
         vc.title = "New Task"
         
         vc.update = {
-            self.updateTasks()
+            DispatchQueue.main.async {
+                self.updateTasks()
+            }
         }
         navigationController?.pushViewController(vc, animated: true)
     }
