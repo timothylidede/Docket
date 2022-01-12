@@ -17,6 +17,12 @@ class TaskViewController: UIViewController {
     
     @objc func deleteTask(){
         
+        let newCount = count - 1
+        
+        UserDefaults().setValue(newCount, forKey: "count")
+        UserDefaults().setValue(nil, forKey: "task_\(currentPosition)")
+
+
     }
 
 }
