@@ -99,15 +99,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7In-7K-yrV">
-                                <rect key="frame" x="166" y="148" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7In-7K-yrV">
+                                <rect key="frame" x="12" y="32" width="351" height="623"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7In-7K-yrV" firstAttribute="top" secondItem="Azs-7C-dAS" secondAttribute="top" constant="12" id="6aN-Dh-Fqv"/>
+                            <constraint firstItem="7In-7K-yrV" firstAttribute="leading" secondItem="Azs-7C-dAS" secondAttribute="leading" constant="12" id="6sC-oW-uOJ"/>
+                            <constraint firstItem="Azs-7C-dAS" firstAttribute="trailing" secondItem="7In-7K-yrV" secondAttribute="trailing" constant="12" id="jee-NJ-GnS"/>
+                            <constraint firstItem="Azs-7C-dAS" firstAttribute="bottom" secondItem="7In-7K-yrV" secondAttribute="bottom" constant="12" id="lLI-X0-Arc"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Azs-7C-dAS"/>
                     </view>
                 </viewController>
