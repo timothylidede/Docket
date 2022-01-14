@@ -5,3 +5,6 @@ An IOS to-do list app
 
 * Using View Controllers
 * Swift Syntax
+* Using Swift GUI
+* Connecting code to GUI
+* Using StoryBoard
